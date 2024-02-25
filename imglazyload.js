@@ -107,7 +107,7 @@
 	};
 	
 })( jQuery, window );
-			$('.container img').imgLazyLoad({
+			$('.movie-item img').imgLazyLoad({
 				// jquery selector or JS object
 				container: window,
 				// jQuery animations: fadeIn, show, slideDown
