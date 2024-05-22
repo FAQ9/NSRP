@@ -9,6 +9,14 @@ $(document).ready(function() {
             $('span.default-srv').removeClass('default-srv');
             $('#server2').addClass('default-srv');
         });
+        $("#server3").click(function() {
+            $('span.default-srv').removeClass('default-srv');
+            $('#server3').addClass('default-srv');
+        });
+        $("#server4").click(function() {
+            $('span.default-srv').removeClass('default-srv');
+            $('#server4').addClass('default-srv');
+        });
     });
     $(window).on("load", function() {
         play(1);
